@@ -8,6 +8,7 @@ public class Run {
 			frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 			frame.setSize(1200, 800);
 			frame.setLocationRelativeTo(null);
+			frame.add(new Loop());
 			frame.setVisible(true);	
 				
 		}
